@@ -1,0 +1,4 @@
+{
+  "python.autoComplete.extraPaths": ["~/Projects/NFFHT/SU2/bin", "/opt/ros/jazzy/lib/python3.12/site-packages"],
+  "python.analysis.extraPaths": ["~/Projects/NFFHT/SU2/bin", "/opt/ros/jazzy/lib/python3.12/site-packages"]
+}

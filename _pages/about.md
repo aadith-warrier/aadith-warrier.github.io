@@ -1,25 +1,32 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Undergraduate Student at Department of Mechanical Engineering, BITS Pilani
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<br>
+Hello! I am Aadith Warrier, a passionate undergraduate researcher and engineer pursuing a B.E in Mechanical Engineering at the Birla Institute of Technology and Science, Pilani. My work spans various interdisciplinary domains, including autonomous robotics, deep learning, and computer vision.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have had the privilege of conducting research at the Embedded Systems and Robotics Lab and the MultiCog Lab at BITS Pilani, where I developed innovative solutions for autonomous systems and image enhancement under low visibility. Additionally, I interned at the Indira Gandhi Centre for Atomic Research, designing advanced inspection tools using soft actuators.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<br>
+<p style="text-align: center"> <a href="/cv/">CV</a> / <a href="https://github.com/aadith-warrier">Github Profile</a> / <a href="https://scholar.google.com/citations?user=eW2OTYUAAAAJ&hl=en">Google Scholar</a> </p>
+
+<br>
+## Selected Publications
+Below are some selected publications from my research:
+
+<div class="publications">
+{% bibliography --query @*[tags=selected] %}
+</div>
