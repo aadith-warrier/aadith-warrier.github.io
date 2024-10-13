@@ -8,7 +8,7 @@ category: Robotics
 related_publications: true
 ---
 
-A multicopter that would be capable of autonomous flight built on PX4 and ROS2 using mostly off the shelf components. 
+A multicopter that would be capable of autonomous flight built on PX4 and ROS2 using mostly off the shelf components.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
