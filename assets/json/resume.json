@@ -1,0 +1,159 @@
+{
+  "name": "Aadith Warrier",
+  "contact": {
+    "email": "warrieraadith@gmail.com",
+    "github": "www.github.com/aadith-warrier"
+  },
+  "education": [
+    {
+      "institution": "Birla Institute of Technology and Science",
+      "location": "Pilani",
+      "studyType": "B.E (Hons)",
+      "startDate": "2021-11",
+      "endDate": "2025-07"
+    },
+    {
+      "institution": "Maharishi Vidya Mandir",
+      "location": "Chennai",
+      "studyType": "Grade XII",
+      "startDate": "2019-05",
+      "endDate": "2021-05"
+    },
+    {
+      "institution": "The PSBB Millennium School",
+      "location": "Chennai",
+      "studyType": "Grade X",
+      "startDate": "2015-05",
+      "endDate": "2019-05"
+    }
+  ],
+  "work": [
+    {
+      "name": "INSPIRE Lab",
+      "position": "Undergraduate Researcher",
+      "location": "Pilani, India",
+      "startDate": "2024-04",
+      "endDate": "present",
+      "summary": "",
+      "highlights": [
+        "Implemented autonomous frontier navigation on a ground robot using ROS and Visual SLAM.",
+        "Designed and validated the blueprint for a low-cost fully autonomous drone.",
+        "Developed simulations of the software stack for autonomous flight using PX4, ROS2, and Gazebo."
+      ]
+    },
+    {
+      "name": "Indira Gandhi Center for Atomic Research",
+      "position": "Research Intern",
+      "location": "Kalpakkam, India",
+      "startDate": "2023-06",
+      "endDate": "2023-07",
+      "summary": "",
+      "highlights": [
+        "Designed a visual inspection tool for hard-to-reach regions with robotic soft actuators using CAD software.",
+        "Achieved a reduction in size of the actuator, enabling traversal of tighter bends and smaller tubes."
+      ]
+    },
+    {
+      "name": "MultiCog Lab",
+      "position": "Undergraduate Researcher",
+      "location": "Pilani, India",
+      "startDate": "2022-10",
+      "endDate": "2024-04",
+      "summary": "",
+      "highlights": [
+        "Developed an efficient pipeline using deep learning to detect and enhance low visibility conditions in drone images.",
+        "Implemented object detection methods for distress detection on roads and image segmentation to quantify them.",
+        "Collaborated with a team of civil engineers to develop metrics to help authorities prioritize repair work."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Attention-Enabled Deep Neural Network for Enhancing UAV-Captured Pavement Imagery in Poor Visibility",
+      "publisher": "2023 IEEE 6th International Conference on Multimedia Information Processing and Retrieval (MIPR)",
+      "releaseDate": "2023-08",
+      "summary": "",
+      "url": "10.1109/MIPR59079.2023.00014"
+    },
+    {
+      "name": "Fast and Lightweight UAV-based Road Image Enhancement Under Multiple Low-Visibility Conditions",
+      "publisher": "2023 IEEE International Conference on Pervasive Computing and Communications Workshops and Other Affiliated Events (PerCom Workshops)",
+      "releaseDate": "2023-03",
+      "summary": "",
+      "url": "10.1109/PerComWorkshops56833.2023.10150374"
+    }
+  ],
+  "projects": [
+    {
+      "name": "CRISS Robotics (College Robotics Team)",
+      "summary": "",
+      "highlights": [
+        "**Mechanical Systems Lead:** responsible for design and manufacturing of the rover and integration between the mechanical, electrical and software systems",
+        "Designed and fabricated a prototype Mars Rover with four wheel differential drive and a 5DoF Manipulator",
+        "Placed first at the International Rover Design Challenge and eleventh at the International Rover Challenge"
+      ],
+      "url": ""
+    },
+    {
+      "name": "ROS2 simulation package for Firebird-VI",
+      "summary": "",
+      "highlights": [
+        "SDF model for the Firebird-VI with simulation using Gazebo",
+        "RTAB Mapping with a OakD-Lite RGBD sensor",
+        "Autonomous Navigation using Nav2",
+        "Tools Used - ROS2, Gazebo, Nav2, RTAB-Map"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Autonomous low-cost Quadcopter",
+      "summary": "",
+      "highlights": [
+        "Custom low-cost autonomous quadcopter built using off-the-shelf components",
+        "Secured a grant of INR 50,000 from the Academic Under Studies Division, BITS Pilani",
+        "Tools Used - ROS, PX4 Autopilot, RTAB-Map"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Deep Learning Architectures",
+      "summary": "",
+      "highlights": ["Implementation of a CNN and UNet", "Tools Used - Python, PyTorch, Matplotlib"],
+      "url": ""
+    },
+    {
+      "name": "Reinforcement Learning Library",
+      "summary": "",
+      "highlights": ["Implementation of reinforcement learning algorithms like Deep Q-Learning with OpenAI Gym"],
+      "url": ""
+    },
+    {
+      "name": "Simulation of Compressible Supersonic Flow through a RamJet Engine",
+      "summary": "",
+      "highlights": ["Tools Used- SU2, Gmsh"],
+      "url": ""
+    },
+    {
+      "name": "Lazy Profile Manager",
+      "summary": "",
+      "highlights": [
+        "A simple python script that keeps your CV and website updated using data from a .yaml file for profile information and a .bib file for publications"
+      ],
+      "url": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": "C++, C, Python, LaTeX"
+    },
+    {
+      "name": "Frameworks and Libraries",
+      "keywords": "ROS/ROS2 (Nav2 and RTAB-Map), Gazebo, Pytorch, Numpy, Matplotlib, OpenAI Gym"
+    },
+    {
+      "name": "Technologies",
+      "keywords": "3D Printing, Metal Fabrication, Laser Cutting, CNC Machining"
+    }
+  ]
+}

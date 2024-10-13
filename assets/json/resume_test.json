@@ -1,0 +1,62 @@
+{
+  "name": "Aadith Warrier",
+  "contact": {
+    "email": "warrieraadith@gmail.com",
+    "github": "www.github.com/aadith-warrier"
+  },
+  "education": [
+    {
+      "institution": "Birla Institute of Technology and Science",
+      "location": "Pilani",
+      "studyType": "BE (Hons)",
+      "area": "Mechanical Engineering",
+      "startDate": "2021-11",
+      "endDate": "2025-07"
+    },
+    {
+      "institution": "Maharishi Vidya Mandir",
+      "location": "Chennai",
+      "studyType": "Grade XII",
+      "area": "Highschool",
+      "startDate": "2019-05",
+      "endDate": "2021-05"
+    },
+    {
+      "institution": "The PSBB Millennium School",
+      "location": "Chennai",
+      "studyType": "Grade X",
+      "area": "Highschool",
+      "startDate": "2015-05",
+      "endDate": "2019-05"
+    }
+  ],
+  "research experience": [
+    {
+      "name": "INSPIRE Lab",
+      "position": "Undegraduate Researcher",
+      "location": "Pilani, India",
+      "startDate": "2005-06",
+      "endDate": "2007-08",
+      "summary": "",
+      "highlights": "Implemented autonomous frontier exploration using RRT on a ground robot using Visual SLAM.\nDesigned and validated the blueprint for a low-cost fully autonomous drone.\nDeveloped simulations of the software stack for autonomous flight using PX4, ROS2, and Gazebo.\n"
+    },
+    {
+      "name": "Indira Gandhi Center for Atomic Research",
+      "position": "Research Intern",
+      "location": "Kalpakkam, India",
+      "startDate": "2023-06",
+      "endDate": "2023-07",
+      "summary": "",
+      "highlights": "Designed a visual inspection tool for hard-to-reach regions with robotic soft actuators using CAD software.\nAchieved a reduction in size of the actuator, enabling traversal of tighter bends and smaller tubes.\n"
+    },
+    {
+      "name": "MultiCog Lab",
+      "position": "Undegraduate Researcher",
+      "location": "Pilani, India",
+      "startDate": "2003-06",
+      "endDate": "2003-08",
+      "summary": "",
+      "highlights": "Developed an efficient pipeline using deep learning to detect and enhance low visibility conditions in drone images.\nImplemented object detection methods for distress detection on roads and image segmentation to quantify them.\nCollaborated with a team of civil engineers to develop metrics to help authorities prioritize repair work.\n"
+    }
+  ]
+}
