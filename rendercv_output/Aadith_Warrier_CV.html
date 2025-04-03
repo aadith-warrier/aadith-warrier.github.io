@@ -12,6 +12,29 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css"
+      integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/"
+      crossorigin="anonymous"
+    />
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js"
+      integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js"
+      integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh"
+      crossorigin="anonymous"
+      onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"
+    ></script>
     <style>
       .markdown-body {
         box-sizing: border-box;
@@ -34,39 +57,50 @@
       <h1>Aadith Warrier's CV</h1>
       <ul>
         <li>Email: <a href="mailto:warrieraadith@gmail.com">warrieraadith@gmail.com</a></li>
-        <li>Location: Pilani, India</li>
+        <li>Location: Hyderabad, India</li>
         <li>GitHub: <a href="https://github.com/aadith-warrier">aadith-warrier</a></li>
       </ul>
       <h1>Education</h1>
-      <h2>Birla Institute of Technology and Science, B.E (Hons) in Mechanical Engineering</h2>
+      <h2>Birla Institute of Technology and Science, B.E in Mechanical Engineering in Mechanical Engineering</h2>
       <ul>
         <li>Nov 2021 – July 2025</li>
         <li>Pilani</li>
+        <li>8.13/10 CGPA</li>
         <li><strong>Coursework:</strong> Autonomous Mobile Robotics, Computer Programming, Vibrations and Control</li>
         <li>Mechanical Team Lead at CRISS Robotics</li>
         <li>Member of Association for Computing Machinery, BITS Pilani Chapter</li>
       </ul>
-      <h2>Maharishi Vidya Mandir, Grade XII in Highschool</h2>
+      <h2>Maharishi Vidya Mandir, Grade XII in Grade XII</h2>
       <ul>
         <li>May 2019 – May 2021</li>
         <li>Chennai</li>
         <li>95.8/100 aggregate</li>
         <li><strong>Coursework:</strong> Physics, Chemistry, Math, Computer Science</li>
       </ul>
-      <h2>The PSBB Millennium School, Grade X in Highschool</h2>
+      <h2>The PSBB Millennium School, Grade X in Grade X</h2>
       <ul>
         <li>May 2015 – May 2019</li>
         <li>Chennai</li>
         <li>94.8/100 aggregate</li>
       </ul>
       <h1>Research Experience</h1>
+      <h2>Robotics Research Center, IIIT-H, Research Intern</h2>
+      <ul>
+        <li>Dec 2024 – present</li>
+        <li>Hyderabad</li>
+        <li>Advisor - Prof. Madhava Krishna</li>
+        <li>Pursuing my bachelor thesis on extending foundational computer vision models to robotics</li>
+      </ul>
       <h2>INSPIRE Lab, Undergraduate Researcher</h2>
       <ul>
-        <li>Apr 2024 – present</li>
+        <li>Apr 2024 – Dec 2024</li>
         <li>Pilani, India</li>
+        <li>Advisor - Prof. Avinash Gautam</li>
         <li>Implemented autonomous frontier navigation on a ground robot using ROS and Visual SLAM.</li>
         <li>Designed and validated the blueprint for a low-cost fully autonomous drone.</li>
         <li>Developed simulations of the software stack for autonomous flight using PX4, ROS2, and Gazebo.</li>
+        <li>Developed a technique to efficiently choose images for VLM inference using ORB and CLIP feature comparisions</li>
+        <li>Researching techniques for rendezvous based multi-robot exploration in communication constrained environments</li>
       </ul>
       <h2>Indira Gandhi Center for Atomic Research, Research Intern</h2>
       <ul>
@@ -79,6 +113,7 @@
       <ul>
         <li>Oct 2022 – Apr 2024</li>
         <li>Pilani, India</li>
+        <li>Advisor - Prof. Pratik Narang</li>
         <li>Developed an efficient pipeline using deep learning to detect and enhance low visibility conditions in drone images.</li>
         <li>Implemented object detection methods for distress detection on roads and image segmentation to quantify them.</li>
         <li>Collaborated with a team of civil engineers to develop metrics to help authorities prioritize repair work.</li>

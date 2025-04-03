@@ -8,7 +8,7 @@
     {
       "institution": "Birla Institute of Technology and Science",
       "location": "Pilani",
-      "studyType": "B.E (Hons)",
+      "studyType": "B.E in Mechanical Engineering",
       "startDate": "2021-11",
       "endDate": "2025-07"
     },
@@ -29,16 +29,28 @@
   ],
   "work": [
     {
+      "name": "Robotics Research Center, IIIT-H",
+      "position": "Research Intern",
+      "location": "Hyderabad",
+      "startDate": "2024-12",
+      "endDate": "present",
+      "summary": "",
+      "highlights": ["Advisor - Prof. Madhava Krishna", "Pursuing my bachelor thesis on extending foundational computer vision models to robotics"]
+    },
+    {
       "name": "INSPIRE Lab",
       "position": "Undergraduate Researcher",
       "location": "Pilani, India",
       "startDate": "2024-04",
-      "endDate": "present",
+      "endDate": "2024-12",
       "summary": "",
       "highlights": [
+        "Advisor - Prof. Avinash Gautam",
         "Implemented autonomous frontier navigation on a ground robot using ROS and Visual SLAM.",
         "Designed and validated the blueprint for a low-cost fully autonomous drone.",
-        "Developed simulations of the software stack for autonomous flight using PX4, ROS2, and Gazebo."
+        "Developed simulations of the software stack for autonomous flight using PX4, ROS2, and Gazebo.",
+        "Developed a technique to efficiently choose images for VLM inference using ORB and CLIP feature comparisions",
+        "Researching techniques for rendezvous based multi-robot exploration in communication constrained environments"
       ]
     },
     {
@@ -61,6 +73,7 @@
       "endDate": "2024-04",
       "summary": "",
       "highlights": [
+        "Advisor - Prof. Pratik Narang",
         "Developed an efficient pipeline using deep learning to detect and enhance low visibility conditions in drone images.",
         "Implemented object detection methods for distress detection on roads and image segmentation to quantify them.",
         "Collaborated with a team of civil engineers to develop metrics to help authorities prioritize repair work."

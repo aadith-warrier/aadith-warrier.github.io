@@ -1,27 +1,28 @@
 # Aadith Warrier's CV
 
 - Email: [warrieraadith@gmail.com](mailto:warrieraadith@gmail.com)
-- Location: Pilani, India
+- Location: Hyderabad, India
 - GitHub: [aadith-warrier](https://github.com/aadith-warrier)
 
 # Education
 
-## Birla Institute of Technology and Science, B.E (Hons) in Mechanical Engineering
+## Birla Institute of Technology and Science, B.E in Mechanical Engineering in Mechanical Engineering
 
 - Nov 2021 – July 2025
 - Pilani
+- 8.13/10 CGPA
 - **Coursework:** Autonomous Mobile Robotics, Computer Programming, Vibrations and Control
 - Mechanical Team Lead at CRISS Robotics
 - Member of Association for Computing Machinery, BITS Pilani Chapter
 
-## Maharishi Vidya Mandir, Grade XII in Highschool
+## Maharishi Vidya Mandir, Grade XII in Grade XII
 
 - May 2019 – May 2021
 - Chennai
 - 95.8/100 aggregate
 - **Coursework:** Physics, Chemistry, Math, Computer Science
 
-## The PSBB Millennium School, Grade X in Highschool
+## The PSBB Millennium School, Grade X in Grade X
 
 - May 2015 – May 2019
 - Chennai
@@ -29,13 +30,23 @@
 
 # Research Experience
 
+## Robotics Research Center, IIIT-H, Research Intern
+
+- Dec 2024 – present
+- Hyderabad
+- Advisor - Prof. Madhava Krishna
+- Pursuing my bachelor thesis on extending foundational computer vision models to robotics
+
 ## INSPIRE Lab, Undergraduate Researcher
 
-- Apr 2024 – present
+- Apr 2024 – Dec 2024
 - Pilani, India
+- Advisor - Prof. Avinash Gautam
 - Implemented autonomous frontier navigation on a ground robot using ROS and Visual SLAM.
 - Designed and validated the blueprint for a low-cost fully autonomous drone.
 - Developed simulations of the software stack for autonomous flight using PX4, ROS2, and Gazebo.
+- Developed a technique to efficiently choose images for VLM inference using ORB and CLIP feature comparisions
+- Researching techniques for rendezvous based multi-robot exploration in communication constrained environments
 
 ## Indira Gandhi Center for Atomic Research, Research Intern
 
@@ -48,6 +59,7 @@
 
 - Oct 2022 – Apr 2024
 - Pilani, India
+- Advisor - Prof. Pratik Narang
 - Developed an efficient pipeline using deep learning to detect and enhance low visibility conditions in drone images.
 - Implemented object detection methods for distress detection on roads and image segmentation to quantify them.
 - Collaborated with a team of civil engineers to develop metrics to help authorities prioritize repair work.

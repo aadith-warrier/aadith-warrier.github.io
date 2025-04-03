@@ -10,6 +10,7 @@
     - title: B.E Mechanical Engineering
       institution: Birla Institute of Technology and Science, Pilani
       year: 2025
+      score: 8.13/10
       description:
         - Computer Programming
         - Autonomous Mobile Robotics
@@ -44,12 +45,18 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Intern
+      institution: International Institute of Information Technology, Hyderabad
+      location: Hyderabad, India
+      startDate: 2024-12-16
+      endDate: present
+
     - title: Undergraduate Researcher
       institution: Embedded Systems and Robotics Lab, BITS Pilani
       location: Pilani, India
       url: https://universe.bits-pilani.ac.in/pilani/avinash/inspireLab
       startDate: 2024-03-01
-      endDate: Present
+      endDate: 2024-12-15
       summary: "Implemented autonomous frontier exploration using RRT on a ground robot using Visual SLAM. Designed and validated the blueprint for a low-cost fully autonomous drone. Developed simulations of the software stack for autonomous flight using PX4, ROS2, and Gazebo."
       highlights:
 

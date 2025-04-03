@@ -1,14 +1,15 @@
 cv:
   email: warrieraadith@gmail.com
-  location: Pilani, India
+  location: Hyderabad, India
   name: Aadith Warrier
   phone: null
   sections:
     education:
     - area: Mechanical Engineering
-      degree: B.E (Hons)
+      degree: B.E in Mechanical Engineering
       end_date: 2025-07
       highlights:
+      - 8.13/10 CGPA
       - '**Coursework:** Autonomous Mobile Robotics, Computer Programming, Vibrations
         and Control'
       - Mechanical Team Lead at CRISS Robotics
@@ -16,7 +17,7 @@ cv:
       institution: Birla Institute of Technology and Science
       location: Pilani
       start_date: 2021-11
-    - area: Highschool
+    - area: Grade XII
       degree: Grade XII
       end_date: 2021-05
       highlights:
@@ -25,7 +26,7 @@ cv:
       institution: Maharishi Vidya Mandir
       location: Chennai
       start_date: 2019-05
-    - area: Highschool
+    - area: Grade X
       degree: Grade X
       end_date: 2019-05
       highlights:
@@ -34,14 +35,28 @@ cv:
       location: Chennai
       start_date: 2015-05
     research experience:
-    - company: INSPIRE Lab
+    - company: Robotics Research Center, IIIT-H
       end_date: present
       highlights:
+      - Advisor - Prof. Madhava Krishna
+      - Pursuing my bachelor thesis on extending foundational computer vision models
+        to robotics
+      location: Hyderabad
+      position: Research Intern
+      start_date: 2024-12
+    - company: INSPIRE Lab
+      end_date: 2024-12
+      highlights:
+      - Advisor - Prof. Avinash Gautam
       - Implemented autonomous frontier navigation on a ground robot using ROS and
         Visual SLAM.
       - Designed and validated the blueprint for a low-cost fully autonomous drone.
       - Developed simulations of the software stack for autonomous flight using PX4,
         ROS2, and Gazebo.
+      - Developed a technique to efficiently choose images for VLM inference using
+        ORB and CLIP feature comparisions
+      - Researching techniques for rendezvous based multi-robot exploration in communication
+        constrained environments
       location: Pilani, India
       position: Undergraduate Researcher
       start_date: 2024-04
@@ -58,6 +73,7 @@ cv:
     - company: MultiCog Lab
       end_date: 2024-04
       highlights:
+      - Advisor - Prof. Pratik Narang
       - Developed an efficient pipeline using deep learning to detect and enhance
         low visibility conditions in drone images.
       - Implemented object detection methods for distress detection on roads and image
@@ -144,40 +160,141 @@ cv:
   - network: GitHub
     username: aadith-warrier
 design:
-  color: '#004f90'
-  disable_external_link_icons: false
-  disable_last_updated_date: false
-  disable_page_numbering: false
-  font: Source Sans 3
-  font_size: 10pt
-  header_font_size: 30 pt
-  last_updated_date_style: Last updated in TODAY
-  margins:
-    entry_area:
-      date_and_location_width: 4 cm
-      education_degree_width: 1.5 cm
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-    header:
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
-      vertical_between_name_and_connections: 0.3 cm
-    highlights_area:
-      left: 0.4 cm
-      top: 0.10 cm
-      vertical_between_bullet_points: 0.10 cm
-    page:
-      bottom: 1.5 cm
-      left: 1.5 cm
-      right: 1.5 cm
-      top: 1.5 cm
-    section_title:
-      bottom: 0.2 cm
-      top: 0.3 cm
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  page_size: a4paper
-  seperator_between_connections: ''
-  show_timespan_in: []
-  text_alignment: justified
-  theme: classic
-  use_icons_for_connections: true
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: '|'
+    use_icons_for_connections: false
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: "\u2022"
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE -- LOCATION'
+      degree_column_template: null
+      degree_column_width: 1cm
+      main_column_second_row_template: 'SUMMARY
+
+        HIGHLIGHTS'
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
+      main_column_second_row_template: 'SUMMARY
+
+        HIGHLIGHTS'
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
+      main_column_second_row_template: 'SUMMARY
+
+        HIGHLIGHTS'
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: 'AUTHORS
+
+        URL (JOURNAL)'
+      main_column_second_row_without_journal_template: 'AUTHORS
+
+        URL'
+      main_column_second_row_without_url_template: 'AUTHORS
+
+        JOURNAL'
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: "\u2013"
+  abbreviations_for_months:
+  - Jan
+  - Feb
+  - Mar
+  - Apr
+  - May
+  - June
+  - July
+  - Aug
+  - Sept
+  - Oct
+  - Nov
+  - Dec
+  full_names_of_months:
+  - January
+  - February
+  - March
+  - April
+  - May
+  - June
+  - July
+  - August
+  - September
+  - October
+  - November
+  - December
+rendercv_settings:
+  date: '2025-03-01'
+  bold_keywords: []

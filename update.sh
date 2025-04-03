@@ -5,7 +5,7 @@ set -e
 
 # Run the commands in sequence
 python3 scripts/yaml_to_json.py
-rendercv render ./Aadith_Warrier_CV/Aadith_Warrier_CV.yaml --pdf-path ./assets/pdf/
+rendercv render ./aadith_warrier_cv/aadith_warrier_CV.yaml --pdf-path ./assets/pdf/
 npx prettier . --write
 # git add .
 # git status

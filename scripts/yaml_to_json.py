@@ -3,7 +3,7 @@ import json
 import bibtexparser
 
 bibtex_path = "_bibliography/papers.bib"
-yaml_path = 'Aadith_Warrier_CV/Aadith_Warrier_CV.yaml'
+yaml_path = 'aadith_warrier_cv/aadith_warrier_CV.yaml'
 json_path = 'assets/json/resume.json'
 
 months_to_numbers = {
