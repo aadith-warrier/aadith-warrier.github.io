@@ -1,0 +1,12 @@
+# Raw source media; the page uses the compressed copies in images/
+*.heic
+VID_*.mp4
+dynamic_scene_viz.mp4
+images/rover.png
+
+# Not used by the page
+images/camera-ring-robot.jpg
+
+# Previous Barron-style version, kept locally for reference
+index-barron.html
+stylesheet.css
